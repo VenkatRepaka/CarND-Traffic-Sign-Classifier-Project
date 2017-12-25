@@ -69,6 +69,6 @@ A well written README file can enhance your project and portfolio.  Develop your
 2. ##### Exploratory visualization of the dataset.
 
 Randomly picked image for each class from training dataset
-![]("https://github.com/VenkatRepaka/CarND-Traffic-Sign-Classifier-Project/blob/master/documentation/sample_images.png")
+![](https://github.com/VenkatRepaka/CarND-Traffic-Sign-Classifier-Project/blob/master/documentation/sample_images.png)
 
 Below histograms show the number of samples given for each class in the dataset
