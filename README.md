@@ -75,3 +75,46 @@ A well written README file can enhance your project and portfolio.  Develop your
 ![](https://github.com/VenkatRepaka/CarND-Traffic-Sign-Classifier-Project/blob/master/documentation/Original_Training_Data.png)
 ![](https://github.com/VenkatRepaka/CarND-Traffic-Sign-Classifier-Project/blob/master/documentation/Validation_Data.png)
 ![](https://github.com/VenkatRepaka/CarND-Traffic-Sign-Classifier-Project/blob/master/documentation/Test_Data.png)
+
+
+### Design and Test a Model Architecture
+
+##### Preprocessing images
+
+1. I have converted all images to gray scale. It is mentioned in the technical paper that they could achieve accuracy above 99%. 
+    Randomly picked image for each class from training dataset which are changed to gray scale images using open cv
+![](https://github.com/VenkatRepaka/CarND-Traffic-Sign-Classifier-Project/blob/master/documentation/gray_sale_images.png)
+
+2. The distribution of number of images for each class is disproportionate. So I have generated augmented data till the samples reach numbers near 1500 for
+each class. For data augmentation I have applied 4 steps. I have used open cv for augmentation.
+    - Rotation of image
+    - Change of perspective of image
+    - Shift image centre
+    - Add nois using np.random.normal
+    
+    Sample of the augmented data
+![](https://github.com/VenkatRepaka/CarND-Traffic-Sign-Classifier-Project/blob/master/documentation/augmented_sample.png)
+
+Histogram of training data after generating augmented data.
+![](https://github.com/VenkatRepaka/CarND-Traffic-Sign-Classifier-Project/blob/master/documentation/Augmented_Training_Data.png)
+
+##### Model Architecture
+
+| Layer         		|     Description	        					|
+|:---------------------:|:---------------------------------------------:|
+| Input         		| 32x32x1 grayscale image   							|
+| Convolution 5x5     	| 2x2 stride, valid padding, outputs 28x28x6 	|
+| RELU					|												|
+| Max pooling	      	| 2x2 stride,  outputs 14x14x6 				|
+| Convolution 5x5	    | 2x2 stride, valid padding, outputs 10x10x16    |
+| RELU					|												|
+| Max pooling	      	| 2x2 stride,  outputs 5x5x16 				|
+| Convolution 1x1	    | 2x2 stride, valid padding, outputs 1x1x412    |
+| RELU					|												|
+| Fully connected		| input 412, output 122        									|
+| RELU					|												|
+| Dropout				| 50% keep        									|
+| Fully connected		| input 122, output 84        									|
+| RELU					|												|
+| Dropout				| 50% keep        									|
+| Fully connected		| input 84, output 43        									|
