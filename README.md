@@ -56,3 +56,19 @@ Follow the instructions in the `Traffic_Sign_Classifier.ipynb` notebook and writ
 ## How to write a README
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
+
+### Data Set Summary & Exploration
+
+1. ##### Basic summary of available traffic signs classifier data:
+    - The size of training set is 34799
+    - The size of the validation set is 4410
+    - The size of test set is 12630
+    - The shape of a traffic sign image is 32, 32, 3
+    - The number of unique classes/labels in the data set is 43
+    
+2. ##### Exploratory visualization of the dataset.
+
+Randomly picked image for each class from training dataset
+![]("https://github.com/VenkatRepaka/CarND-Traffic-Sign-Classifier-Project/blob/master/documentation/sample_images.png")
+
+Below histograms show the number of samples given for each class in the dataset
