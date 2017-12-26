@@ -92,7 +92,7 @@ each class. For data augmentation I have applied 4 steps. I have used open cv fo
     - Shift image centre
     - Add nois using np.random.normal
     
-Sample of the augmented data
+Sample of the augmented data.
 ![](https://github.com/VenkatRepaka/CarND-Traffic-Sign-Classifier-Project/blob/master/documentation/augmented_sample.png)
 
 Histogram of training data after generating augmented data
@@ -157,11 +157,11 @@ Probabilities
 Corresponding labels
 [28 20 23 11 27]
 Order of probablities for prediction
-Choice 1 -> Children crossing
-Choice 2 -> Dangerous curve to the right
-Choice 3 -> Slippery road
-Choice 4 -> Right-of-way at the next intersection
-Choice 5 -> Pedestrians
+1. Choice 1 -> Children crossing
+2. Choice 2 -> Dangerous curve to the right
+3. Choice 3 -> Slippery road
+4. Choice 4 -> Right-of-way at the next intersection
+5. Choice 5 -> Pedestrians
 
 Priority road:
 Probabilities
@@ -170,11 +170,11 @@ Probabilities
 Corresponding labels
 [12 15 35 40 32]
 Order of probablities for prediction
-Choice 1 -> Priority road
-Choice 2 -> No vehicles
-Choice 3 -> Ahead only
-Choice 4 -> Roundabout mandatory
-Choice 5 -> End of all speed and passing limits
+1. Choice 1 -> Priority road
+2. Choice 2 -> No vehicles
+3. Choice 3 -> Ahead only
+4. Choice 4 -> Roundabout mandatory
+5. Choice 5 -> End of all speed and passing limits
 
 Road work:
 Probabilities
@@ -182,11 +182,11 @@ Probabilities
 Corresponding labels
 [24 27 26 18 25]
 Order of probablities for prediction
-Choice 1 -> Road narrows on the right
-Choice 2 -> Pedestrians
-Choice 3 -> Traffic signals
-Choice 4 -> General caution
-Choice 5 -> Road work
+1. Choice 1 -> Road narrows on the right
+2. Choice 2 -> Pedestrians
+3. Choice 3 -> Traffic signals
+4. Choice 4 -> General caution
+5. Choice 5 -> Road work
 
 Slippery road:
 Probabilities
@@ -194,11 +194,11 @@ Probabilities
 Corresponding labels
 [21 11 30 23 19]
 Order of probablities for prediction
-Choice 1 -> Double curve
-Choice 2 -> Right-of-way at the next intersection
-Choice 3 -> Beware of ice/snow
-Choice 4 -> Slippery road
-Choice 5 -> Dangerous curve to the left
+1. Choice 1 -> Double curve
+2. Choice 2 -> Right-of-way at the next intersection
+3. Choice 3 -> Beware of ice/snow
+4. Choice 4 -> Slippery road
+5. Choice 5 -> Dangerous curve to the left
 
 Wild animals crossing:
 Probabilities
@@ -206,11 +206,11 @@ Probabilities
 Corresponding labels
 [21 31 22 23 11]
 Order of probablities for prediction
-Choice 1 -> Double curve
-Choice 2 -> Wild animals crossing
-Choice 3 -> Bumpy road
-Choice 4 -> Slippery road
-Choice 5 -> Right-of-way at the next intersection
+1. Choice 1 -> Double curve
+2. Choice 2 -> Wild animals crossing
+3. Choice 3 -> Bumpy road
+4. Choice 4 -> Slippery road
+5. Choice 5 -> Right-of-way at the next intersection
 
 
 
