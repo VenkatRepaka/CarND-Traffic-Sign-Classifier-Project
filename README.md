@@ -110,6 +110,7 @@ Histogram of training data after generating augmented data.<br/>
 | Convolution 5x5	    | 2x2 stride, valid padding, outputs 10x10x16   |
 | RELU					|												|
 | Dropout				| 70%        								    |
+| Max pooling	      	| 2x2 stride, outputs 5x5x16 				    |
 | Fully connected		| input 400, output 120        					|
 | RELU					|												|
 | Dropout				| 70%        								    |
