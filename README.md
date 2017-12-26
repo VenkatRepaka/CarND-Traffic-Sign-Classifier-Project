@@ -110,10 +110,10 @@ Histogram of training data after generating augmented data.<br/>
 | RELU					|												|
 | Fully connected		| input 400, output 120        					|
 | RELU					|												|
-| Dropout				| 70%        								|
+| Dropout				| 70%        								    |
 | Fully connected		| input 120, output 84        					|
 | RELU					|												|
-| Dropout				| 50% keep        								|
+| Dropout				| 50%       								    |
 | Fully connected		| input 84, output 43        					|
 
 
