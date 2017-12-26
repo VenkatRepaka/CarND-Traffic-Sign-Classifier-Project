@@ -92,10 +92,10 @@ each class. For data augmentation I have applied 4 steps. I have used open cv fo
     - Shift image centre
     - Add nois using np.random.normal
     
-Sample of the augmented data.
+Sample of the augmented data. <br/>
 ![](https://github.com/VenkatRepaka/CarND-Traffic-Sign-Classifier-Project/blob/master/documentation/augmented_sample.png)
 
-Histogram of training data after generating augmented data.
+Histogram of training data after generating augmented data.<br/>
 ![](https://github.com/VenkatRepaka/CarND-Traffic-Sign-Classifier-Project/blob/master/documentation/Augmented_Training_Data.png)
 
 ##### Model Architecture
