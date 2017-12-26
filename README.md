@@ -95,7 +95,7 @@ each class. For data augmentation I have applied 4 steps. I have used open cv fo
 Sample of the augmented data.
 ![](https://github.com/VenkatRepaka/CarND-Traffic-Sign-Classifier-Project/blob/master/documentation/augmented_sample.png)
 
-Histogram of training data after generating augmented data
+Histogram of training data after generating augmented data.
 ![](https://github.com/VenkatRepaka/CarND-Traffic-Sign-Classifier-Project/blob/master/documentation/Augmented_Training_Data.png)
 
 ##### Model Architecture
